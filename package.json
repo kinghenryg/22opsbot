@@ -1,0 +1,29 @@
+{
+  "name": "22opsbot",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A GitHub bot that interacts with PRs by commenting on deployment status and cleaning up resources for closed PRs,",
+  "author": "22Ops Team",
+  "license": "ISC",
+  "homepage": "https://github.com//",
+  "keywords": [
+    "probot",
+    "github",
+    "probot-app"
+  ],
+  "scripts": {
+    "start": "probot run ./index.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "probot": "^13.0.1"
+  },
+  "devDependencies": {
+    "nock": "^14.0.0-beta.5",
+    "smee-client": "^2.0.0"
+  },
+  "engines": {
+    "node": ">= 18"
+  },
+  "type": "module"
+}
